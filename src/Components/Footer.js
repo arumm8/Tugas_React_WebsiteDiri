@@ -33,8 +33,7 @@ export const Footer = () => {
             </a>
             <div className="mt-6 lg:max-w-sm">
               <p className="text-sm text-gray-800">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam.
+                Terima kasih manusia baik. Berjumpa lagi di pertemuan berikutnya. 
               </p>
             </div>
           </div>
@@ -43,25 +42,25 @@ export const Footer = () => {
               Contacts
             </p>
             <div className="flex">
-              <p className="mr-1 text-gray-800">Phone:</p>
+              <p className="mr-1 text-gray-800">Phone: </p>
               <a
                 href="tel:850-123-5021"
                 aria-label="Our phone"
                 title="Our phone"
                 className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                850-123-5021
+                0851-0159-8888
               </a>
             </div>
             <div className="flex">
               <p className="mr-1 text-gray-800">Email:</p>
               <a
                 href="mailto:info@lorem.mail"
-                aria-label="Our email"
-                title="Our email"
+                aria-label="My email"
+                title="My email"
                 className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
-                info@lorem.mail
+                qsekararumyyk@gmail.com
               </a>
             </div>
             {/* <div className="flex">
@@ -117,7 +116,7 @@ export const Footer = () => {
         </div>
         <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
           <p className="text-sm text-gray-600">
-            © Copyright 2020 Lorem Inc. All rights reserved.
+            © Copyright 2023
           </p>
           <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
@@ -125,7 +124,7 @@ export const Footer = () => {
                 href="/"
                 className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
               >
-                F.A.Q
+                {/* F.A.Q */}
               </a>
             </li>
             <li>
@@ -133,7 +132,7 @@ export const Footer = () => {
                 href="/"
                 className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
               >
-                Privacy Policy
+                {/* Privacy Policy */}
               </a>
             </li>
             <li>
@@ -141,7 +140,7 @@ export const Footer = () => {
                 href="/"
                 className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
               >
-                Terms &amp; Conditions
+                {/* Terms &amp; Conditions */}
               </a>
             </li>
           </ul>

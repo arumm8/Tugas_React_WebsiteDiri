@@ -1,5 +1,5 @@
 import React from 'react';
-import self from "../Asset/images/self1.jpg";
+//import Beranda from "../../public/Asset/images/self1.jpg"
 
 export const Beranda_1 = () => {
     return (
@@ -47,22 +47,20 @@ export const Beranda_1 = () => {
                 />
             <div className="max-w-xl mb-6">
               <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                Let us handle
+                Welcome to 
                 <br className="hidden md:block" />
-                your next{' '}
+                my personal{' '}
                 <span className="inline-block text-deep-purple-accent-400">
-                  destination
+                  website
                 </span>
               </h2>
               <p className="text-base text-gray-700 md:text-lg">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae. explicabo.
+                Halo makhluk bumi! Kenalin aku another makhluk bumi.
               </p>
             </div>
             <div>
               <a
-                href="/Gallery"
+                href="/TentangSaya"
                 aria-label=""
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
@@ -79,21 +77,21 @@ export const Beranda_1 = () => {
           </div>
           <div className="flex items-center justify-center -mx-4 lg:pl-8">
             <div className="flex flex-col items-end px-3">
-              <img
-                className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
-                src="/self1.jpg"
-                alt=""
+              <img 
+              src="/Asset/images/self1.jpg"
+              alt="" 
+              className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
               />
               <img
                 className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
-                src=""
+                src="/Asset/images/self_love_5.jpg"
                 alt=""
               />
             </div>
             <div className="px-3">
               <img
                 className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
-                src=""
+                src="/Asset/images/self_love_3.jpg"
                 alt=""
               />
             </div>

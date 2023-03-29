@@ -26,11 +26,12 @@ export const Beranda_2 = () => {
             </div>
           </a>
           <h2 className="mb-4 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-            Chase ball of string eat
+            "With brave wings she flies, trust god"
           </h2>
           <p className="text-base text-gray-700 md:text-lg sm:px-4">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+            Dengan penuh keberanian, ia mengepakkan sayap dan terbang
+            berbekal percaya bahwa Tuhan tak pernah meninggalkannya
+
           </p>
           <hr className="w-full my-8 border-gray-300" />
         </div>

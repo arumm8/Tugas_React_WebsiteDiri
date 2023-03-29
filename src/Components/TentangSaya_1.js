@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Gallery_1 = () => {
+export const TentangSaya_1 = () => {
     return (
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="flex flex-col w-full mb-6 lg:justify-between lg:flex-row md:mb-8">
@@ -23,7 +23,7 @@ export const Gallery_1 = () => {
               </div>
             </a>
             <h2 className="font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl">
-              <span className="inline-block mb-2">My Gallery</span>
+              <span className="inline-block mb-2">Tentang Saya</span>
               <div className="h-1 ml-auto duration-300 origin-left transform bg-deep-purple-accent-400 scale-x-30 group-hover:scale-x-100" />
             </h2>
           </div>
@@ -37,7 +37,7 @@ export const Gallery_1 = () => {
           <div>
             <img
               className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
-              src=""
+              src="/Asset/images/self1.jpg"
               alt=""
             />
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">

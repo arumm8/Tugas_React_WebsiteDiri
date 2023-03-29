@@ -1,11 +1,11 @@
 import React from 'react'
-import { Gallery_1 } from './Gallery_1';
+import { TentangSaya_1 } from './TentangSaya_1';
 
-class Gallery extends React.Component{
+class TentangSaya extends React.Component{
     render(){
         return(
             <>
-            <Gallery_1/>
+            <TentangSaya_1/>
             {/* <div>
                 <h2>Ini Tentang Saya</h2>
                 <h3>Yoww it's me!</h3>
@@ -24,4 +24,4 @@ class Gallery extends React.Component{
     }
 }
 
-export default Gallery;
+export default TentangSaya;

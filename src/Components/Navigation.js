@@ -46,15 +46,15 @@ export const Nav = () => {
             </li>
             <li>
               <a
-                href="/Gallery"
-                aria-label="Gallery"
-                title="Gallery"
+                href="/TentangSaya"
+                aria-label="Tentang Saya"
+                title="Tentang Saya"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Gallery
+                Tentang Saya
               </a>
             </li>
-            {/* <li>
+            <li>
               <a
                 href="/karya"
                 aria-label="Product pricing"
@@ -63,7 +63,7 @@ export const Nav = () => {
               >
                 Karya
               </a>
-            </li>*/}
+            </li>
             <li>
               <a
                 href="/kontak"
@@ -72,6 +72,26 @@ export const Nav = () => {
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Kontak 
+              </a>
+            </li> 
+            <li>
+              <a
+                href="/gallery"
+                aria-label="Gallery"
+                title="Gallery"
+                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              >
+                Gallery 
+              </a>
+            </li> 
+            <li>
+              <a
+                href="/Cart"
+                aria-label="Cart"
+                title="Cart"
+                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              >
+                Cart 
               </a>
             </li> 
             {/* <li>
